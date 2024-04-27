@@ -85,18 +85,28 @@
 }
 .services_modal-service {
 	display: flex;
-	align-items: center;
+	align-items: start;
+	align-self: start;
+	justify-content: start;
 	column-gap: .5rem;
+	white-space: nowrap;
+	vertical-align: top;
 }
 
 .services_modal-icon {
 	color: var(--title-color);
 	font-size: 1.1rem;
+	align-items: start;
+	align-self: self-start;
+	vertical-align: top;
+
 }
 .services_modal-info {
 	font-size: var(--small-font-size);
 	display: inline-block;
 	margin-left: 10px;
+	white-space: break-spaces;
+	/* white-space: nowrap; */
 } 
 
 /* Active Modal */

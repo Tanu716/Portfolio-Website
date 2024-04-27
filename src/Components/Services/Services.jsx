@@ -10,14 +10,14 @@ const Services = () => {
 
 	return (
 		<section className="services section" id="services">
-			<h2 className="section__title">Services</h2>
-			<span className="section__subtitle">What I Offer</span>
+			<h2 className="section__title">Projects</h2>
+			<span className="section__subtitle">My Personal Projects</span>
 
 			<div className="services__container container grid">
 				<div className="services_content">
 					<div>
 						<i className="uil uil-web-grid services_icon"></i>
-						<h3 className="services_title">Product <br /> Designer</h3>
+						<h3 className="services_title">Weather <br /> App</h3>
 					</div>
 
 					<span onClick={() => toggleTab(1)} className="services_button"
@@ -30,16 +30,16 @@ const Services = () => {
 							<i onClick={() => toggleTab(0)} className="uil uil-times 
 						services_modal-close"></i>
 
-							<h3 className="services_modal-title">Product Designer</h3>
+							<h3 className="services_modal-title">Weather App</h3>
 							<p className="services_modal-description">
-								Service with more than 1 year of experience.
-								Providing quality work to clients and companies.
+							"Developed a fully responsive weather application using React.js"
+							
 							</p>
 							<ul className="services_modal-services grid">
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon" >
 										<p className="services_modal-info">
-											I develope the user interface.
+											Developed the modular and scalable application.
 										</p>
 									</i>
 								</li>
@@ -47,7 +47,7 @@ const Services = () => {
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											Web page developement.
+										Integrated with weather APIs to dynamically fetch and display real-time weather data
 										</p>
 									</i>
 								</li>
@@ -55,23 +55,23 @@ const Services = () => {
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											I create ux element interactions.
+										Provides users accurate and up-to-date information about latest weather.
 										</p>
 									</i>
 								</li>
 
-								<li className="services_modal-service">
+								{/* <li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
 											I position your company brand.
 										</p>
 									</i>
-								</li>
+								</li> */}
 
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											Design and mockups of products for companies.
+										Utilized CSS media queries and responsive design techniques to optimize the app's layout
 										</p>
 									</i>
 								</li>
@@ -83,7 +83,7 @@ const Services = () => {
 				<div className="services_content">
 					<div>
 						<i className="uil uil-arrow services_icon"></i>
-						<h3 className="services_title">UI/UX <br /> Developer</h3>
+						<h3 className="services_title">Portfolio <br /> Project</h3>
 					</div>
 
 					<span className="services_button" onClick={() => toggleTab(2)}>View More
@@ -95,16 +95,15 @@ const Services = () => {
 							<i onClick={() => toggleTab(0)} className="uil uil-times 
 						services_modal-close"></i>
 
-							<h3 className="services_modal-title">UI/UX Developer</h3>
+							<h3 className="services_modal-title">Portfolio Project</h3>
 							<p className="services_modal-description">
-								Service with more than 3 years of experience.
-								Providing quality work to clients and companies.
+							"Showcases a diverse range of professional accomplishments, skills, and projects"
 							</p>
 							<ul className="services_modal-services grid">
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											I develope the user interface.
+										Demonstrated proficiency in front-end technologies 
 										</p>
 									</i>
 								</li>
@@ -112,7 +111,7 @@ const Services = () => {
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											Web page developement.
+										Created a visually appealing and functionally robust portfolio
 										</p>
 									</i>
 								</li>
@@ -120,23 +119,23 @@ const Services = () => {
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											I create ux element interactions.
+										It effectively highlights professional expertise and achievements
 										</p>
 									</i>
 								</li>
 
-								<li className="services_modal-service">
+								{/* <li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
 											I position your company brand.
 										</p>
 									</i>
-								</li>
+								</li> */}
 
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											Design and mockups of products for companies.
+										Employed version control systems, such as Git, for collaborative developement.
 										</p>
 									</i>
 								</li>
@@ -148,7 +147,7 @@ const Services = () => {
 				<div className="services_content">
 					<div>
 						<i className="uil uil-edit services_icon"></i>
-						<h3 className="services_title">Visual <br /> Designer</h3>
+						<h3 className="services_title">Share Market <br /> Trading App</h3>
 					</div>
 
 					<span className="services_button" onClick={() => toggleTab(3)}>View More
@@ -160,16 +159,15 @@ const Services = () => {
 							<i onClick={() => toggleTab(0)} className="uil uil-times 
 						services_modal-close"></i>
 
-							<h3 className="services_modal-title">Visual/Graphic Designer</h3>
+							<h3 className="services_modal-title">Share market Trading App</h3>
 							<p className="services_modal-description">
-								Service with more than 1 year of experience.
-								Providing quality work to clients and companies.
+						    "Developed a sophisticated share market trading application utilizing React.js"
 							</p>
 							<ul className="services_modal-services grid">
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											I develope the user interface.
+										 Implemented real-time data integration from market APIs 
 										</p>
 									</i>
 								</li>
@@ -177,7 +175,7 @@ const Services = () => {
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											Web page developement.
+										Provide users with up-to-date stock information and analytics, enabling informed investment decisions
 										</p>
 									</i>
 								</li>
@@ -185,23 +183,23 @@ const Services = () => {
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											I create ux element interactions.
+										Ensures a seamless and efficient trading experience
 										</p>
 									</i>
 								</li>
 
-								<li className="services_modal-service">
+								{/* <li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
 											I position your company brand.
 										</p>
 									</i>
-								</li>
+								</li> */}
 
 								<li className="services_modal-service">
 									<i className="uil uil-check-circle services_modal-icon">
 										<p className="services_modal-info">
-											Design and mockups of products for companies.
+										Ability to deliver scalable and innovative solutions in a dynamic market environment.
 										</p>
 									</i>
 								</li>
